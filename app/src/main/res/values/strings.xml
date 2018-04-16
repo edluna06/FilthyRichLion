@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Filthy Rich Lion</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+
+    <string name="facebook_app_id">2042233186043386</string>
+    <string name="facebook_login_protocol_schema">fb2042233186043386</string>
+
+    <string name="ins2">When stuck, you have three options</string>
+    <string name="option1">Eliminate 2 incorrect choices</string>
+    <string name="option2">Change the question</string>
+    <string name="option3">Ask the LION</string>
+    <string name="instructions">How to play?</string>
+    <string name="ins1">Answer all the questions correctly to win</string>
+
+    <string name="manageDatabase">Manage Database</string>
+    <string name="courses">Courses</string>
+    <string name="questions">Questions</string>
+
+
+    <string name="heading1">Add Questions</string>
+    <string name="field1">Question</string>
+    <string name="field2">Option A</string>
+    <string name="field3">Option B</string>
+    <string name="field4">Option C</string>
+    <string name="field5">Option D</string>
+    <string name="txt_ques">Enter Question</string>
+    <string name="txt_optA">Enter Option A</string>
+    <string name="txt_optB">Enter Option B</string>
+    <string name="txt_optC">Enter Option C</string>
+    <string name="txt_optD">Enter Option D</string>
+    <string name="heading2">Edit Question</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_srch">Search</string>
+    <string name="enter_id">Enter ID</string>
+    <string name="heading3">View Questions</string>
+    <string name="btn_rfrsh">Refresh</string>
+    <string name="field6">Correct Answer</string>
+
+    <string name="forQuestion">For inserting a Question</string>
+    <string name="course">Select Course</string>
+    <string name="help">All help was used</string>
+
+    <string name="share">Share</string>
+</resources>

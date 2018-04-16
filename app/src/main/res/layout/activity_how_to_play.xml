@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/artboard5"
+    tools:context="com.futiletech.filthyrichlion.howToPlayActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/instructions"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="724dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/ins1"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="729dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/ins2"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:layout_marginLeft="24dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="155dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/fifty50"
+        android:layout_marginLeft="156dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="162dp"
+        android:layout_height="115dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/log7"
+        android:layout_marginLeft="156dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="434dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="monospace"
+        android:text="@string/option1"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="376dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="monospace"
+        android:text="@string/option3"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.679" />
+
+</android.support.constraint.ConstraintLayout>

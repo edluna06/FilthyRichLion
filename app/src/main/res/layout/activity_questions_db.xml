@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="15dp">
+
+
+    <TextView
+        android:id="@+id/select_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/forQuestion" />
+
+
+    <TextView
+        android:id="@+id/course_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/select_course"
+        android:text="@string/course" />
+
+    <Spinner
+        android:id="@+id/sp_courses"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_rfrsh"
+        android:layout_alignRight="@+id/btn_rfrsh"
+        android:layout_alignTop="@+id/course_tv" />
+
+
+
+    <TextView
+        android:id="@+id/heading1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/course_tv"
+         />
+
+    <TextView
+        android:id="@+id/field1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/heading1"
+        android:text="@string/field1" />
+
+    <EditText
+        android:id="@+id/txt_ques"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/field1"
+        android:layout_alignBottom="@+id/field1"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/txt_ques"
+        android:inputType="textPersonName"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/field2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/field1"
+        android:layout_alignStart="@+id/field1"
+        android:layout_below="@+id/txt_ques"
+        android:layout_marginTop="13dp"
+        android:text="@string/field2" />
+
+    <EditText
+        android:id="@+id/txt_optA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_ques"
+        android:layout_alignStart="@+id/txt_ques"
+        android:layout_below="@+id/txt_ques"
+        android:ems="10"
+        android:hint="@string/txt_optA"
+        android:inputType="textPersonName"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/field3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/field2"
+        android:layout_alignStart="@+id/field2"
+        android:layout_below="@+id/txt_optA"
+        android:layout_marginTop="11dp"
+        android:text="@string/field3" />
+
+    <EditText
+        android:id="@+id/txt_optB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_optA"
+        android:layout_alignStart="@+id/txt_optA"
+        android:layout_below="@+id/txt_optA"
+        android:ems="10"
+        android:hint="@string/txt_optB"
+        android:inputType="textPersonName"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/field4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_optC"
+        android:layout_alignBottom="@+id/txt_optC"
+        android:layout_alignLeft="@+id/field3"
+        android:layout_alignStart="@+id/field3"
+        android:text="@string/field4" />
+
+    <EditText
+        android:id="@+id/txt_optC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_optB"
+        android:layout_alignStart="@+id/txt_optB"
+        android:layout_below="@+id/txt_optB"
+        android:ems="10"
+        android:hint="@string/txt_optC"
+        android:inputType="textPersonName"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/field5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/field4"
+        android:layout_alignStart="@+id/field4"
+        android:layout_below="@+id/txt_optC"
+        android:text="@string/field5" />
+
+    <EditText
+        android:id="@+id/txt_optD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_optC"
+        android:layout_alignStart="@+id/txt_optC"
+        android:layout_below="@+id/txt_optC"
+        android:ems="10"
+        android:hint="@string/txt_optD"
+        android:inputType="textPersonName"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/heading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_add"
+        android:layout_marginTop="18dp"
+        android:text="@string/heading2" />
+
+    <Button
+        android:id="@+id/btn_srch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txt_optD"
+        android:layout_alignRight="@+id/txt_optD"
+        android:layout_below="@+id/heading2"
+        android:onClick="btnSearchClick"
+        android:text="@string/btn_srch" />
+
+
+    <EditText
+        android:id="@+id/txtEditCourse"
+        android:hint=""
+        android:visibility="visible"
+        android:layout_below="@id/btn_srch"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <EditText
+        android:id="@+id/txtEditQues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEditCourse"
+        android:hint=""
+        android:visibility="visible" />
+    <EditText
+        android:id="@+id/txtEditOptA"
+        android:hint=""
+        android:visibility="visible"
+        android:layout_below="@id/txtEditQues"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <EditText
+        android:id="@+id/txtEditOptB"
+        android:hint=""
+        android:visibility="visible"
+        android:layout_below="@id/txtEditOptA"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <EditText
+        android:id="@+id/txtEditOptC"
+        android:hint=""
+        android:visibility="visible"
+        android:layout_below="@id/txtEditOptB"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <EditText
+        android:id="@+id/txtEditOptD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtEditOptC"
+        android:hint=""
+        android:visibility="visible" />
+    <EditText
+        android:id="@+id/txtEditCrcAns"
+        android:hint=""
+        android:visibility="visible"
+        android:layout_below="@id/txtEditOptD"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:text="Update"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/btnDelete"
+        android:layout_toStartOf="@id/btnDelete"
+        android:layout_below="@id/txtEditCrcAns"
+        android:onClick="btnUpdateClick"/>
+    <Button
+        android:id="@id/btnDelete"
+        android:text="Delete"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/txtEditCrcAns"
+        android:onClick="btnDeleteClick"/>
+
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/crct_ans"
+        android:layout_toEndOf="@+id/txt_optD"
+        android:layout_toRightOf="@+id/txt_optD"
+        android:onClick="btnAddClick"
+        android:text="@string/btn_add" />
+
+    <ScrollView
+        android:id="@+id/scrll_results"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/heading3"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/txt_results"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/heading3" />
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtEditCourse"
+        android:layout_alignLeft="@+id/heading3"
+        android:layout_alignStart="@+id/heading3"
+        android:ems="10"
+        android:hint="@string/enter_id"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/heading3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnUpdate"
+        android:layout_alignBottom="@+id/btnUpdate"
+        android:layout_alignEnd="@+id/field6"
+        android:layout_alignRight="@+id/field6"
+        android:text="@string/heading3" />
+
+    <Button
+        android:id="@+id/btn_rfrsh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/heading3"
+        android:layout_alignBottom="@+id/heading3"
+        android:layout_toLeftOf="@+id/crct_ans"
+        android:layout_toStartOf="@+id/crct_ans"
+        android:onClick="btnRefreshClick"
+        android:text="@string/btn_rfrsh" />
+
+    <EditText
+        android:id="@+id/crct_ans"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_optD"
+        android:layout_alignStart="@+id/txt_optD"
+        android:layout_below="@+id/txt_optD" />
+
+    <TextView
+        android:id="@+id/field6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt_optD"
+        android:text="@string/field6" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sp_courses"
+        android:layout_centerHorizontal="true"
+        android:text="Secure Programming" />
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CoursesChoices">
+        <item>CMPSC444</item>
+        <item>COMP511</item>
+        <item>CMPSC475</item>
+        <item>CMPSC497A</item>
+        <item>COMP519</item>
+        <item>COMP597A</item>
+        <item>COMP597B</item>
+        <item>COMP545</item>
+        <item>COMP505</item>
+        <item>CMPSC469</item>
+        <item>COMP512</item>
+        <item>CMPSC470</item>
+    </string-array>
+</resources>
