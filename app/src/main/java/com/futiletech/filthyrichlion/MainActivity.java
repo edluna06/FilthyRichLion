@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
     //public static final String EXTRA_IMAGE_URL = "com.futiletech.filthyrichlion.EXTRA_IMAGE_URL";
     //public static final String EXTRA_USERNAME = "com.futiletech.filthyrichlion.EXTRA_USERNAME";
-
+//
     CallbackManager callbackManager;
     ProgressDialog mDialog;
 
