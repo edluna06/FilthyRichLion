@@ -33,7 +33,6 @@ In addition there is a screen to manage the database within the app available on
 
 ![Alt text](img6.png?raw=true "Title")
 
-
 ![Alt text](img7.png?raw=true "Title")
 
 
